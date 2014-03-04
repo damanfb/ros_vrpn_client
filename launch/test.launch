@@ -1,0 +1,5 @@
+<launch>
+
+<node pkg="ros_vrpn_client" name="quad" type="ros_vrpn_client" args="_vrpn_server_ip:=visionsystem.cs.utah.edu" required="true" />
+
+</launch>

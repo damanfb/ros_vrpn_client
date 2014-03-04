@@ -1,0 +1,49 @@
+<!--
+<package>
+  <description brief="ros_vrpn_client">
+     ROS node which is a client for Virtual Reality Peripheral
+     Networks and publishes a TF frame and TransformStamped for
+     tracked bodies.
+
+     Tested with the Optitrak motion capture system from NaturalPoint.
+  </description>
+  <author>Advait Jain, Chi-Hung King, Advisor: Prof. Charlie Kemp, Lab: Healthcare Robotics Lab at Georgia Tech</author>
+  <license>New BSD</license>
+  <review status="unreviewed" notes=""/>
+
+  <depend package="roscpp"/>
+  <depend package="tf"/>
+  <depend package="bullet"/>
+  <depend package="geometry_msgs"/>
+</package>
+-->
+
+<?xm version="1.0"?>
+<package>
+	<name>ros_vrpn_client</name>
+	<version>0.0.0</version>
+	<maintainer email="daman@todo.todo">daman</maintainer>
+	<description>
+		ROS ndoe which is a client for a VRPN and publishes a TF frame and TransformStamped for tracked bodies.
+		Tested with the Optitrak motion capture system from NaturalPoint.
+	</description>
+	<author>
+		Advait Jain, Chi-Hung King, Prof. Charlie Kemp. Healthcare Robotics Lab at Georgia Tech
+	</author>
+	<license>New BSD</license>
+
+	<buildtool_depend>catkin</buildtool_depend>
+
+	<build_depend>roscpp</build_depend>
+	<build_depend>tf</build_depend>
+	<build_depend>bullet</build_depend>
+	<build_depend>geometry_msgs</build_depend>
+
+	<run_depend>roscpp</run_depend>
+	<run_depend>tf</run_depend>
+	<run_depend>bullet</run_depend>
+	<run_depend>geometry_msgs</run_depend>
+
+	<export> </export>
+</package>
+
