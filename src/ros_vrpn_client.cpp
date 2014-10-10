@@ -135,7 +135,9 @@ void VRPN_CALLBACK track_target (void *, const vrpn_TRACKERCB t)
     prev_vrpn_data = t;
 
     target_state->target.transform.translation.x = pos.x();
+    //target_state->target.transform.translation.x = pos.y();
     target_state->target.transform.translation.y = pos.y();
+    //target_state->target.transform.translation.y = -pos.x();
     target_state->target.transform.translation.z = pos.z();
 
     target_state->target.transform.rotation.x = q_rot.x();
